@@ -43,7 +43,7 @@ export default function Register() {
     setIsLoading(true);
 
     try {
-      const response = await fetch("https://group-chat.brayden-b8b.workers.dev/register", {
+      const response = await fetch("https://backend.readtalk.workers.dev/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -181,7 +181,7 @@ export default function Register() {
           <p>
             Already have an account?{" "}
             <a
-              href="/auth/login"
+              href="/login"
               className="font-medium text-indigo-600 hover:text-indigo-500"
             >
               Sign in
