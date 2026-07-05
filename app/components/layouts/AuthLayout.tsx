@@ -98,7 +98,7 @@ export default function AuthLayout() {
     const handleSignOut = async () => {
         try {
             const sessionId = localStorage.getItem('session');
-            await fetch('https://group-chat.brayden-b8b.workers.dev/logout', {
+            await fetch('https://backend.readtalk.workers.dev/logout', {
                 method: 'POST',
                 headers: {
                     'X-Session-Id': sessionId || ''
@@ -123,7 +123,7 @@ export default function AuthLayout() {
             <div className="flex w-full justify-between border-b border-neutral-200 bg-neutral-50 py-1 pr-2 pl-6 transition-colors dark:border-neutral-800 dark:bg-neutral-950">
                 <div className="flex flex-1 gap-2 items-center">
                     <Chats size={16} weight="fill" />
-                    <div>Group<strong>Chat</strong></div>
+                    <div><strong>READT</strong>alk</div>
                 </div>
 
                 <div className="flex flex-row-reverse flex-1 items-center gap-3">
