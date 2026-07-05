@@ -195,7 +195,7 @@ export default function Channel() {
                 //     if (id) {
                 //         try {
                 //             // const response = await fetch(`/channels/messages`);
-                //             const response = await fetch('https://group-chat.brayden-b8b.workers.dev/channel/messages', {
+                //             const response = await fetch('https://backend.readtalk.workers.dev/channel/messages', {
                 //                 method: 'POST',
                 //                 headers: {
                 //                     'Content-Type': 'application/json',
